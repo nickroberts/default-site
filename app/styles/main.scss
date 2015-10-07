@@ -1,0 +1,25 @@
+$icon-font-path: '../fonts/';
+
+@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+@import "boo";
+
+html {
+  min-height: 100%;
+  min-width: 100%;
+}
+
+body {
+  background: url(../images/bg.png) center bottom #000;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.ghost {
+  height: 400px;
+  width: 400px;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  margin: -200px auto auto -200px;
+}
